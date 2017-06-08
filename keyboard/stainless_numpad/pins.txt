@@ -1,5 +1,5 @@
-col: 1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17
-pin: B6	B5 B4 B3 B2 B1 B0 F0 F1 F2 F3 F4 F5 D0 D1 D2 D3
+col: 1  2  3  4  
+pin: F5	F4 F1 F0 
 
 row: 1  2  3  4  5  6 
-pin: C0 C1 C2 C3 C4 C5
+pin: B6 B7 B3 B2 B1 B0
