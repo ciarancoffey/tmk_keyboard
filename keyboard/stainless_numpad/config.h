@@ -22,14 +22,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x6060
-#define DEVICE_VER      0x0001
+#define DEVICE_VER      0x0002
 #define MANUFACTURER    stainless
-#define PRODUCT         tkl
-#define DESCRIPTION     Stainless TKL
+#define PRODUCT         numpad
+#define DESCRIPTION     Stainless Numpad
 
 /* key matrix size */
 #define MATRIX_ROWS 6
-#define MATRIX_COLS 17
+#define MATRIX_COLS 4
 
 /* define if matrix has ghost */
 //#define MATRIX_HAS_GHOST

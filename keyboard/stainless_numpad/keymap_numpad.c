@@ -3,20 +3,20 @@
 const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /* 0: qwerty */
     KEYMAP(
-        ESC,      F1,  F2,  F3,  F4,  F5,  F6,  F7,  F8,  F9,  F10, F11, F12, PSCR,SLCK,PAUS, \
-        GRV, 1,   2,   3,   4,   5,   6,   7,   8,   9,   0,   MINS,EQL, BSPC,INS,HOME, PGUP, \
-        TAB, Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P,   LBRC,RBRC,     DEL,END,PGDN,   \
-        LCTL,A,   S,   D,   F,   G,   H,   J,   K,   L,   SCLN,QUOT,NUHS,ENT,                 \
-        LSFT,NUBS,Z,   X,   C,   V,   B,   N,   M,   COMM,DOT, SLSH,          RSFT,     UP,        \
-        LCTL,LGUI,LALT,          SPC,                     RALT, FN0,APP, RCTL, LEFT,DOWN,RGHT),
+        FN0, F1,  F2,  F3,    \
+        NLCK,PSLS,PAST,PMNS,  \
+        P7,  P8,  P9,PPLS,    \
+        P4,  P5,  P6,         \
+        P1,  P2,  P3, PENT,   \
+        P0,  PDOT             ),
     /* 1: fn_qwerty */
     KEYMAP(
-        TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS, \
-        TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,MPLY,MNXT,VOLU, \
-        TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,     MSTP,MPRV,VOLD, \
-        CAPS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,                 \
-        TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,        \
-        TRNS,TRNS,TRNS,          TRNS,                     TRNS, TRNS,TRNS,TRNS,TRNS,TRNS,TRNS),
+        TRNS,TRNS,TRNS,TRNS, \
+        TRNS,MPLY,MNXT,VOLU, \
+        TRNS,MSTP,MPRV,VOLD, \
+        TRNS,TRNS,TRNS,                 \
+        TRNS,TRNS,TRNS,TRNS,        \
+        TRNS,TRNS),
     /* 5: colemak * /
     KEYMAP_ANSI(
         GRV, 1,   2,   3,   4,   5,   6,   7,   8,   9,   0,   MINS,EQL, BSPC, \
