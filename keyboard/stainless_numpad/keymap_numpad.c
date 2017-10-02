@@ -3,7 +3,7 @@
 const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /* 0: qwerty */
     KEYMAP(
-        FN0, F1,  F2,  F3,    \
+        FN0, F1,  F2,  BSPC,    \
         NLCK,PSLS,PAST,PMNS,  \
         P7,  P8,  P9,PPLS,    \
         P4,  P5,  P6,         \

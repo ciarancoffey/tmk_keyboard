@@ -1,3 +1,8 @@
+Make with make
+Flash with
+teensy-loader-cli -mmcu=at90usb1286 -w -v  ./stainless_tkl.hex
+
+
 GH60 keyboard firmware
 ======================
 DIY compact keyboard designed and run by komar007 and Geekhack community.

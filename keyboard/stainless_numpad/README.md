@@ -1,3 +1,5 @@
+teensy-loader-cli -mmcu=atmega32u4 -w -v  ./stainless_numpad.hex
+
 GH60 keyboard firmware
 ======================
 DIY compact keyboard designed and run by komar007 and Geekhack community.
