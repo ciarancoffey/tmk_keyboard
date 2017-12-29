@@ -8,7 +8,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         TAB, Q,   W,   E,   R,   T,   Y,   U,   I,   O,   P,   LBRC,RBRC,     DEL,END,PGDN,   \
         LCTL,A,   S,   D,   F,   G,   H,   J,   K,   L,   SCLN,QUOT,NUHS,ENT,                 \
         LSFT,NUBS,Z,   X,   C,   V,   B,   N,   M,   COMM,DOT, SLSH,          RSFT,     UP,        \
-        LCTL,LGUI,LALT,          SPC,                     RALT, FN0,APP, RCTL, LEFT,DOWN,RGHT),
+        LCTL,LGUI,LALT,          SPC,                     RALT, APP,FN0, RCTL, LEFT,DOWN,RGHT),
     /* 1: fn_qwerty */
     KEYMAP(
         TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS,TRNS, \
