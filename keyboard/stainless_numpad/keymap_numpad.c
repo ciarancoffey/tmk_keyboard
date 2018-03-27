@@ -3,7 +3,7 @@
 const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /* 0: qwerty */
     KEYMAP(
-        FN0, F1,  F2,  BSPC,    \
+        FN0, ESC, TAB, BSPC,  \
         NLCK,PSLS,PAST,PMNS,  \
         P7,  P8,  P9,PPLS,    \
         P4,  P5,  P6,         \
@@ -12,11 +12,11 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /* 1: fn_qwerty */
     KEYMAP(
         TRNS,TRNS,TRNS,TRNS, \
-        TRNS,MPLY,MNXT,VOLU, \
-        TRNS,MSTP,MPRV,VOLD, \
+        TRNS,TRNS,TRNS,VOLD, \
+        MPRV,MPLY,MNXT,VOLU, \
         TRNS,TRNS,TRNS,                 \
         TRNS,TRNS,TRNS,TRNS,        \
-        TRNS,TRNS),
+        TRNS,MSTP),
     /* 5: colemak * /
     KEYMAP_ANSI(
         GRV, 1,   2,   3,   4,   5,   6,   7,   8,   9,   0,   MINS,EQL, BSPC, \
